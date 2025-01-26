@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Szymek/CLionProjects/Projekt2/cmake-build-debug",
-		"source" : "C:/Users/Szymek/CLionProjects/Projekt2"
+		"build" : "C:/Users/Szymek/Documents/GitHub/Space invaders/Space-invaders/cmake-build-debug",
+		"source" : "C:/Users/Szymek/Documents/GitHub/Space invaders/Space-invaders"
 	},
 	"version" : 
 	{

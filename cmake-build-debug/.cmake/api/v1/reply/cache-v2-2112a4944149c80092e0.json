@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Szymek/CLionProjects/Projekt2/cmake-build-debug"
+			"value" : "c:/Users/Szymek/Documents/GitHub/Space invaders/Space-invaders/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Szymek/CLionProjects/Projekt2/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Szymek/Documents/GitHub/Space invaders/Space-invaders/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Szymek/CLionProjects/Projekt2"
+			"value" : "C:/Users/Szymek/Documents/GitHub/Space invaders/Space-invaders"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1279,7 +1279,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Szymek/CLionProjects/Projekt2/cmake-build-debug"
+			"value" : "C:/Users/Szymek/Documents/GitHub/Space invaders/Space-invaders/cmake-build-debug"
 		},
 		{
 			"name" : "Projekt2_IS_TOP_LEVEL",
@@ -1303,19 +1303,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Szymek/CLionProjects/Projekt2"
-		},
-		{
-			"name" : "SFML_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for SFML."
-				}
-			],
-			"type" : "PATH",
-			"value" : "SFML_DIR-NOTFOUND"
+			"value" : "C:/Users/Szymek/Documents/GitHub/Space invaders/Space-invaders"
 		},
 		{
 			"name" : "SFML_DOC_DIR",
