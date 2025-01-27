@@ -1,4 +1,3 @@
-// Enemy.cpp
 #include "Enemy.h"
 
 Enemy::Enemy(sf::Vector2f position)
@@ -16,7 +15,7 @@ void Enemy::update() {
 }
 
 void Enemy::dropBomb(std::vector<Projectile>& bombs) {
-    // Tworzenie nowego pocisku (bomby) na pozycji wroga
+    // Tworzenie nowego pocisku na pozycji wroga
     bombs.emplace_back(shape.getPosition() + sf::Vector2f(0, -40), 4);
 }
 
@@ -35,9 +34,3 @@ bool Enemy::isDestroyed() const {
 void Enemy::draw(sf::RenderTarget& target, sf::RenderStates states) const {
     target.draw(shape, states);  // Rysowanie wroga na ekranie
 }
-
-/* Komentarze do kodu:
-- Klasa Enemy teraz inicjalizuje kształt jako trójkąt przypominający statek kosmiczny.
-- Metoda setShapeToTriangle umożliwia zmianę kształtu wroga na trójkąt w dowolnym momencie.
-- Rysowanie i obsługa kolizji zostały dostosowane do nowego kształtu.
-- using namespace std nie jest potrzebne, ponieważ std nie jest bezpośrednio używane w tym pliku. */
