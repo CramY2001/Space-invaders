@@ -36,8 +36,3 @@ void Projectile::draw(sf::RenderTarget& target, sf::RenderStates states) const
 {
     target.draw(shape, states);  // Rysowanie pocisku na ekranie
 }
-
-/* Komentarze do kodu:
-- Plik implementuje zachowanie klasy Projectile.
-- Każdy pocisk posiada prędkość i może zostać oznaczony jako zniszczony.
-- Metoda draw umożliwia rysowanie pocisku na ekranie przy użyciu SFML. */
