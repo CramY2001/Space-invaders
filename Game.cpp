@@ -1,10 +1,9 @@
-// Game.cpp
 #include "Game.h"
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
 
-using namespace std;  // Używane tylko dla std::time i std::rand
+using namespace std; 
 
 Game::Game()
     : window(sf::VideoMode(800, 600), "Space Invaders"),
@@ -102,7 +101,7 @@ void Game::spawnEnemies() {
         }
     }
     // Zmniejsz cooldown wrogów przy każdym nowym poziomie
-    enemyShootCooldown = std::max(0.5f, enemyShootCooldown - 0.2f);  // Minimum 0.5 sekundy
+    enemyShootCooldown = std::max(0.5f, enemyShootCooldown - 0.2f); 
     level++;
 }
 
@@ -189,4 +188,3 @@ void Game::checkCollisions() {
     }
 }
 
-/* Zmiany: Dodano warunek przegranej, gdy wróg dotknie dolnej granicy okna. */
