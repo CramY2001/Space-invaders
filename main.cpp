@@ -22,7 +22,3 @@ int main()
 
     return EXIT_SUCCESS; // Zakończenie programu bez błędów
 }
-
-/* Komentarze do kodu:
-- Funkcja main inicjalizuje grę i obsługuje potencjalne wyjątki.
-- Wyjątki: Obsługuje standardowe wyjątki std::exception i wszystkie inne wyjątki. */
