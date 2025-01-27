@@ -24,9 +24,3 @@ public:
 };
 
 #endif // PROJECTILE_H
-
-/* Komentarze do kodu:
-- Klasa Projectile reprezentuje pociski wystrzeliwane przez gracza i wrogów.
-- Pocisk posiada prędkość, która determinuje jego ruch w osi Y.
-- using namespace std nie jest potrzebne, ponieważ std nie jest bezpośrednio używane w tym pliku.
-- Klasa dziedziczy z sf::Drawable, co umożliwia rysowanie pocisku na ekranie. */
